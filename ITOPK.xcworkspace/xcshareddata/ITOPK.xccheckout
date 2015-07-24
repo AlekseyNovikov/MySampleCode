@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>554277BD-295A-469F-9847-9853D3C08AA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ITOPK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>211D17CE291D90264E13E572FAE1A61A6B60C54D</key>
+		<string>https://bitbucket.org/alekseynovikov/innopolis.git</string>
+		<key>99753EC3A1BB045F9509EB5F638A1F2D0298B791</key>
+		<string>https://github.com/AlekseyNovikov/MySampleCode.git</string>
+		<key>F47585494C51EC7C0D67EEF9E26EF4FAEF74407E</key>
+		<string>https://bitbucket.org/iconicmobile/itopk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ITOPK.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>211D17CE291D90264E13E572FAE1A61A6B60C54D</key>
+		<string>../../innopolis</string>
+		<key>99753EC3A1BB045F9509EB5F638A1F2D0298B791</key>
+		<string>..</string>
+		<key>F47585494C51EC7C0D67EEF9E26EF4FAEF74407E</key>
+		<string>../../MySampleCode</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlekseyNovikov/MySampleCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99753EC3A1BB045F9509EB5F638A1F2D0298B791</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>211D17CE291D90264E13E572FAE1A61A6B60C54D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>innopolis</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F47585494C51EC7C0D67EEF9E26EF4FAEF74407E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MySampleCode</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99753EC3A1BB045F9509EB5F638A1F2D0298B791</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

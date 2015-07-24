@@ -1,0 +1,20 @@
+
+$('.menu-block').css('display','none');
+$('.news-img').css('min-height','0px');
+$('.news-img').css('width','100%');
+$('.news-img').css('padding-right','10px');
+     $('.container').css('padding-left','0');
+     $('.container').css('width','100%');
+     $('.container').css('min-width','0px');
+     $('.content').css('width','100%');
+     $('h1').css('display','none');
+     $('.content.news').css('padding','10px 0px 0px 10px');
+     $('.news-item-body').css('width','100%');
+     $('.news-item-heading').css('width','100%');
+     $('.description').css('width','85%');
+     $('.description p').css('font-size','40px');
+     $('.description p i').css('font-size','40px');
+     $('.description p').css('line-height','40px');
+     $('.description p i').css('line-height','40px');
+     $('.title').css('font-size','40px');
+     $('.newsdate').css('font-size','40px');

@@ -1,0 +1,6 @@
+module MLPAutoCompleteTextField {
+  umbrella header "MLPAutoCompleteTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09608F9C9807F74F91DB69C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEA8184A2472FA7132B6B27 /* libPods.a */; };
+		709E2A691B0B83F2008C1288 /* SectionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709E2A681B0B83F2008C1288 /* SectionsTableViewCell.m */; };
+		70AA37D81B0CA306005D63DD /* SpeakersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA37D61B0CA306005D63DD /* SpeakersTableViewCell.m */; };
+		70AA37DD1B0CA317005D63DD /* SpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA37DA1B0CA317005D63DD /* SpeakerDetailViewController.m */; };
+		70AA37DE1B0CA317005D63DD /* SpeakersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA37DC1B0CA317005D63DD /* SpeakersTableViewController.m */; };
+		70BBCDE61B0CD3FD00B70DF9 /* NewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBCDE51B0CD3FD00B70DF9 /* NewsWebViewController.m */; };
+		70BBCDEF1B0CEE7C00B70DF9 /* news.js in Resources */ = {isa = PBXBuildFile; fileRef = 70BBCDEE1B0CEE7C00B70DF9 /* news.js */; };
+		70BBCDF31B0DDC3F00B70DF9 /* GuestsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBCDF21B0DDC3F00B70DF9 /* GuestsTableViewController.m */; };
+		70BBCDF71B0DEA4000B70DF9 /* PartnersWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBCDF61B0DEA4000B70DF9 /* PartnersWebViewController.m */; };
+		70BBCDF91B0DF12B00B70DF9 /* partners.js in Resources */ = {isa = PBXBuildFile; fileRef = 70BBCDF81B0DF12B00B70DF9 /* partners.js */; };
+		70CD7FD61B035D730029F2B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD7FD51B035D730029F2B4 /* main.m */; };
+		70CD7FD91B035D730029F2B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD7FD81B035D730029F2B4 /* AppDelegate.m */; };
+		70CD7FDF1B035D730029F2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CD7FDD1B035D730029F2B4 /* Main.storyboard */; };
+		70CD7FE41B035D730029F2B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CD7FE21B035D730029F2B4 /* LaunchScreen.xib */; };
+		70CD801C1B04CB1C0029F2B4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CD801B1B04CB1C0029F2B4 /* CoreData.framework */; };
+		70CD801F1B04D21E0029F2B4 /* Innopolis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70CD801D1B04D21E0029F2B4 /* Innopolis.xcdatamodeld */; };
+		70DC5D4C1B15EABB00BB099E /* Interfaces.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F66F981B0B7A1D009F2DCD /* Interfaces.xcassets */; };
+		70DC5D511B1621AA00BB099E /* NetwokManager+Navigine.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DC5D501B1621AA00BB099E /* NetwokManager+Navigine.m */; };
+		70DC5D531B1656DD00BB099E /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DC5D521B1656DD00BB099E /* map.png */; };
+		70DC5D551B166F9100BB099E /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DC5D541B166F9100BB099E /* pin.png */; };
+		70DD783E1B10C721001791C1 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DD783D1B10C721001791C1 /* QuestionViewController.m */; };
+		70E7A61E1B0F3C3E008DED50 /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7A61D1B0F3C3E008DED50 /* ScheduleTableViewController.m */; };
+		70E7A6211B0F3EB2008DED50 /* ScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7A6201B0F3EB2008DED50 /* ScheduleTableViewCell.m */; };
+		70E7A63F1B0F891F008DED50 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A63E1B0F891F008DED50 /* libz.dylib */; };
+		70E7A6411B0F892B008DED50 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A6401B0F892B008DED50 /* libc++.dylib */; };
+		70E7A6431B0F8934008DED50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A6421B0F8934008DED50 /* UIKit.framework */; };
+		70E7A6451B0F893D008DED50 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A6441B0F893D008DED50 /* CoreBluetooth.framework */; };
+		70E7A6471B0F8945008DED50 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A6461B0F8945008DED50 /* CoreLocation.framework */; };
+		70E7A6491B0F894E008DED50 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A6481B0F894E008DED50 /* CoreMotion.framework */; };
+		70E7A64B1B0F8958008DED50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A64A1B0F8958008DED50 /* Foundation.framework */; };
+		D9A61C1A1B108FB0001BE99E /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A61C191B108FB0001BE99E /* SignUpViewController.m */; };
+		D9A61C1E1B109BC1001BE99E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A61C1D1B109BC1001BE99E /* LoginViewController.m */; };
+		D9A61C221B10A9CE001BE99E /* NetwokManager+SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A61C211B10A9CE001BE99E /* NetwokManager+SignIn.m */; };
+		D9A61C261B10AEFC001BE99E /* LoginNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A61C251B10AEFC001BE99E /* LoginNavigationController.m */; };
+		D9A61C2B1B10B519001BE99E /* UITextFieldWithInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A61C2A1B10B519001BE99E /* UITextFieldWithInsets.m */; };
+		D9E236741B0E03E900852DAE /* NetwokManager+Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E236731B0E03E900852DAE /* NetwokManager+Schedule.m */; };
+		D9E236761B0E040800852DAE /* NetwokManager+Speakers.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E236751B0E040800852DAE /* NetwokManager+Speakers.m */; };
+		D9E2367B1B0E072900852DAE /* ScheduleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2367A1B0E072900852DAE /* ScheduleEvent.m */; };
+		D9E2367F1B0E074500852DAE /* ScheduleEvent+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2367E1B0E074500852DAE /* ScheduleEvent+Creation.m */; };
+		D9E236841B0E0CF400852DAE /* NetwokManager+SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E236831B0E0CF400852DAE /* NetwokManager+SignUp.m */; };
+		D9E236891B0E173000852DAE /* NetwokManager+Ask.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E236881B0E173000852DAE /* NetwokManager+Ask.m */; };
+		D9E2368D1B0E54C800852DAE /* ScheduleEvent+Fetching.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2368C1B0E54C800852DAE /* ScheduleEvent+Fetching.m */; };
+		D9F5D4B61B0BA2DE00285492 /* NetwokManager+Sections.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4B51B0BA2DE00285492 /* NetwokManager+Sections.m */; };
+		D9F5D4CF1B0BE2BC00285492 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4CE1B0BE2BC00285492 /* Section.m */; };
+		D9F5D4D21B0BE38800285492 /* Section+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4D11B0BE38800285492 /* Section+Creation.m */; };
+		D9F5D4D51B0BEA2700285492 /* Section+Fetching.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4D41B0BEA2700285492 /* Section+Fetching.m */; };
+		D9F5D4E11B0D225500285492 /* SectionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4E01B0D225500285492 /* SectionDetail.m */; };
+		D9F5D4E51B0D227D00285492 /* SectionDetail+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4E41B0D227D00285492 /* SectionDetail+Creation.m */; };
+		D9F5D4EA1B0D24C700285492 /* NSDate+string.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4E91B0D24C700285492 /* NSDate+string.m */; };
+		D9F5D4EE1B0D268C00285492 /* SectionDetail+Fetching.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4ED1B0D268C00285492 /* SectionDetail+Fetching.m */; };
+		D9F5D4F71B0D2F8B00285492 /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4F61B0D2F8B00285492 /* Speaker.m */; };
+		D9F5D4FB1B0D2FC600285492 /* Speaker+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4FA1B0D2FC600285492 /* Speaker+Creation.m */; };
+		D9F5D4FF1B0D31FE00285492 /* Speaker+Fetching.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4FE1B0D31FE00285492 /* Speaker+Fetching.m */; };
+		D9F66F991B0B7A1D009F2DCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F66F971B0B7A1D009F2DCD /* Images.xcassets */; };
+		D9F66FAF1B0B7C72009F2DCD /* SectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FA41B0B7C72009F2DCD /* SectionDetailViewController.m */; };
+		D9F66FB11B0B7C72009F2DCD /* SectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FA61B0B7C72009F2DCD /* SectionsTableViewController.m */; };
+		D9F66FB31B0B7C72009F2DCD /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FA81B0B7C72009F2DCD /* SideMenuViewController.m */; };
+		D9F66FB51B0B7C72009F2DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FAA1B0B7C72009F2DCD /* ViewController.m */; };
+		D9F66FB71B0B7C72009F2DCD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FAC1B0B7C72009F2DCD /* WebViewController.m */; };
+		D9F66FC11B0B7CD2009F2DCD /* NetwokManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FBC1B0B7CD2009F2DCD /* NetwokManager.m */; };
+		D9F66FCB1B0B7D0E009F2DCD /* MuseoSansCyrl 300.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9F66FC91B0B7D0E009F2DCD /* MuseoSansCyrl 300.otf */; };
+		D9F66FCD1B0B7D0E009F2DCD /* MuseoSansCyrl 500.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9F66FCA1B0B7D0E009F2DCD /* MuseoSansCyrl 500.otf */; };
+		D9F66FD81B0B823A009F2DCD /* Urls.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F66FD61B0B823A009F2DCD /* Urls.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAA5B8D036EBBF6AA193825 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3EEA8184A2472FA7132B6B27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61658FE52DD87FB920164320 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		709E2A671B0B83F2008C1288 /* SectionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionsTableViewCell.h; path = Innopolis/Views/SectionsTableViewCell.h; sourceTree = "<group>"; };
+		709E2A681B0B83F2008C1288 /* SectionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionsTableViewCell.m; path = Innopolis/Views/SectionsTableViewCell.m; sourceTree = "<group>"; };
+		70AA37D51B0CA306005D63DD /* SpeakersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeakersTableViewCell.h; path = Innopolis/Views/SpeakersTableViewCell.h; sourceTree = "<group>"; };
+		70AA37D61B0CA306005D63DD /* SpeakersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeakersTableViewCell.m; path = Innopolis/Views/SpeakersTableViewCell.m; sourceTree = "<group>"; };
+		70AA37D91B0CA317005D63DD /* SpeakerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeakerDetailViewController.h; path = Innopolis/Controllers/SpeakerDetailViewController.h; sourceTree = "<group>"; };
+		70AA37DA1B0CA317005D63DD /* SpeakerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeakerDetailViewController.m; path = Innopolis/Controllers/SpeakerDetailViewController.m; sourceTree = "<group>"; };
+		70AA37DB1B0CA317005D63DD /* SpeakersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeakersTableViewController.h; path = Innopolis/Controllers/SpeakersTableViewController.h; sourceTree = "<group>"; };
+		70AA37DC1B0CA317005D63DD /* SpeakersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeakersTableViewController.m; path = Innopolis/Controllers/SpeakersTableViewController.m; sourceTree = "<group>"; };
+		70BBCDE41B0CD3FD00B70DF9 /* NewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsWebViewController.h; path = Innopolis/Controllers/NewsWebViewController.h; sourceTree = "<group>"; };
+		70BBCDE51B0CD3FD00B70DF9 /* NewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsWebViewController.m; path = Innopolis/Controllers/NewsWebViewController.m; sourceTree = "<group>"; };
+		70BBCDEE1B0CEE7C00B70DF9 /* news.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = news.js; sourceTree = "<group>"; };
+		70BBCDF11B0DDC3F00B70DF9 /* GuestsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuestsTableViewController.h; path = Innopolis/Controllers/GuestsTableViewController.h; sourceTree = "<group>"; };
+		70BBCDF21B0DDC3F00B70DF9 /* GuestsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuestsTableViewController.m; path = Innopolis/Controllers/GuestsTableViewController.m; sourceTree = "<group>"; };
+		70BBCDF51B0DEA4000B70DF9 /* PartnersWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PartnersWebViewController.h; path = Innopolis/Controllers/PartnersWebViewController.h; sourceTree = "<group>"; };
+		70BBCDF61B0DEA4000B70DF9 /* PartnersWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PartnersWebViewController.m; path = Innopolis/Controllers/PartnersWebViewController.m; sourceTree = "<group>"; };
+		70BBCDF81B0DF12B00B70DF9 /* partners.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = partners.js; sourceTree = "<group>"; };
+		70CD7FD01B035D730029F2B4 /* ITOPK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITOPK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CD7FD41B035D730029F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CD7FD51B035D730029F2B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CD7FD71B035D730029F2B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Innopolis/AppDelegate.h; sourceTree = "<group>"; };
+		70CD7FD81B035D730029F2B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Innopolis/AppDelegate.m; sourceTree = "<group>"; };
+		70CD7FDE1B035D730029F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CD7FE31B035D730029F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70CD7FEE1B035D730029F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CD80171B04C5E00029F2B4 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Innopolis/Macros.h; sourceTree = "<group>"; };
+		70CD801B1B04CB1C0029F2B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70DC5D501B1621AA00BB099E /* NetwokManager+Navigine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+Navigine.m"; path = "Innopolis/Network manager/NetwokManager+Navigine.m"; sourceTree = "<group>"; };
+		70DC5D521B1656DD00BB099E /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		70DC5D541B166F9100BB099E /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = Images/Interfaces.xcassets/pin.imageset/pin.png; sourceTree = "<group>"; };
+		70DD783C1B10C721001791C1 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionViewController.h; path = Innopolis/Controllers/QuestionViewController.h; sourceTree = "<group>"; };
+		70DD783D1B10C721001791C1 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionViewController.m; path = Innopolis/Controllers/QuestionViewController.m; sourceTree = "<group>"; };
+		70E7A61C1B0F3C3E008DED50 /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTableViewController.h; path = Innopolis/Controllers/ScheduleTableViewController.h; sourceTree = "<group>"; };
+		70E7A61D1B0F3C3E008DED50 /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleTableViewController.m; path = Innopolis/Controllers/ScheduleTableViewController.m; sourceTree = "<group>"; };
+		70E7A61F1B0F3EB2008DED50 /* ScheduleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTableViewCell.h; path = Innopolis/Views/ScheduleTableViewCell.h; sourceTree = "<group>"; };
+		70E7A6201B0F3EB2008DED50 /* ScheduleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleTableViewCell.m; path = Innopolis/Views/ScheduleTableViewCell.m; sourceTree = "<group>"; };
+		70E7A63E1B0F891F008DED50 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		70E7A6401B0F892B008DED50 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		70E7A6421B0F8934008DED50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70E7A6441B0F893D008DED50 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		70E7A6461B0F8945008DED50 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70E7A6481B0F894E008DED50 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		70E7A64A1B0F8958008DED50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9A61C181B108FB0001BE99E /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Innopolis/Controllers/SignUpViewController.h; sourceTree = "<group>"; };
+		D9A61C191B108FB0001BE99E /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Innopolis/Controllers/SignUpViewController.m; sourceTree = "<group>"; };
+		D9A61C1C1B109BC1001BE99E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Innopolis/Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		D9A61C1D1B109BC1001BE99E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Innopolis/Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		D9A61C201B10A9CE001BE99E /* NetwokManager+SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NetwokManager+SignIn.h"; path = "Innopolis/Network manager/NetwokManager+SignIn.h"; sourceTree = "<group>"; };
+		D9A61C211B10A9CE001BE99E /* NetwokManager+SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+SignIn.m"; path = "Innopolis/Network manager/NetwokManager+SignIn.m"; sourceTree = "<group>"; };
+		D9A61C241B10AEFC001BE99E /* LoginNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginNavigationController.h; path = Innopolis/Controllers/LoginNavigationController.h; sourceTree = "<group>"; };
+		D9A61C251B10AEFC001BE99E /* LoginNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginNavigationController.m; path = Innopolis/Controllers/LoginNavigationController.m; sourceTree = "<group>"; };
+		D9A61C291B10B519001BE99E /* UITextFieldWithInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITextFieldWithInsets.h; path = Innopolis/Views/UITextFieldWithInsets.h; sourceTree = "<group>"; };
+		D9A61C2A1B10B519001BE99E /* UITextFieldWithInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITextFieldWithInsets.m; path = Innopolis/Views/UITextFieldWithInsets.m; sourceTree = "<group>"; };
+		D9E236731B0E03E900852DAE /* NetwokManager+Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+Schedule.m"; path = "Innopolis/Network manager/NetwokManager+Schedule.m"; sourceTree = "<group>"; };
+		D9E236751B0E040800852DAE /* NetwokManager+Speakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+Speakers.m"; path = "Innopolis/Network manager/NetwokManager+Speakers.m"; sourceTree = "<group>"; };
+		D9E236791B0E072900852DAE /* ScheduleEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleEvent.h; path = Innopolis/Models/ScheduleEvent.h; sourceTree = "<group>"; };
+		D9E2367A1B0E072900852DAE /* ScheduleEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleEvent.m; path = Innopolis/Models/ScheduleEvent.m; sourceTree = "<group>"; };
+		D9E2367E1B0E074500852DAE /* ScheduleEvent+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ScheduleEvent+Creation.m"; path = "Innopolis/Models/ScheduleEvent+Creation.m"; sourceTree = "<group>"; };
+		D9E236821B0E0CF400852DAE /* NetwokManager+SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NetwokManager+SignUp.h"; path = "Innopolis/Network manager/NetwokManager+SignUp.h"; sourceTree = "<group>"; };
+		D9E236831B0E0CF400852DAE /* NetwokManager+SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+SignUp.m"; path = "Innopolis/Network manager/NetwokManager+SignUp.m"; sourceTree = "<group>"; };
+		D9E236871B0E173000852DAE /* NetwokManager+Ask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NetwokManager+Ask.h"; path = "Innopolis/Network manager/NetwokManager+Ask.h"; sourceTree = "<group>"; };
+		D9E236881B0E173000852DAE /* NetwokManager+Ask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+Ask.m"; path = "Innopolis/Network manager/NetwokManager+Ask.m"; sourceTree = "<group>"; };
+		D9E2368C1B0E54C800852DAE /* ScheduleEvent+Fetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ScheduleEvent+Fetching.m"; path = "Innopolis/Models/ScheduleEvent+Fetching.m"; sourceTree = "<group>"; };
+		D9F5D4A71B0B904800285492 /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
+		D9F5D4A91B0B94F500285492 /* APITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITests.m; sourceTree = "<group>"; };
+		D9F5D4AC1B0B956700285492 /* TestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSemaphor.h; path = "Helper class/TestSemaphor.h"; sourceTree = "<group>"; };
+		D9F5D4AD1B0B956700285492 /* TestSemaphor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestSemaphor.m; path = "Helper class/TestSemaphor.m"; sourceTree = "<group>"; };
+		D9F5D4B51B0BA2DE00285492 /* NetwokManager+Sections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NetwokManager+Sections.m"; path = "Innopolis/Network manager/NetwokManager+Sections.m"; sourceTree = "<group>"; };
+		D9F5D4BB1B0BD96D00285492 /* Innopolis-β.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Innopolis-β.xcdatamodel"; sourceTree = "<group>"; };
+		D9F5D4BC1B0BDA0C00285492 /* Innopolis-α.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Innopolis-α.xcdatamodel"; sourceTree = "<group>"; };
+		D9F5D4CD1B0BE2BC00285492 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Section.h; path = Innopolis/Models/Section.h; sourceTree = "<group>"; };
+		D9F5D4CE1B0BE2BC00285492 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Section.m; path = Innopolis/Models/Section.m; sourceTree = "<group>"; };
+		D9F5D4D11B0BE38800285492 /* Section+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Section+Creation.m"; path = "Innopolis/Models/Section+Creation.m"; sourceTree = "<group>"; };
+		D9F5D4D41B0BEA2700285492 /* Section+Fetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Section+Fetching.m"; path = "Innopolis/Models/Section+Fetching.m"; sourceTree = "<group>"; };
+		D9F5D4DF1B0D225500285492 /* SectionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionDetail.h; path = Innopolis/Models/SectionDetail.h; sourceTree = "<group>"; };
+		D9F5D4E01B0D225500285492 /* SectionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionDetail.m; path = Innopolis/Models/SectionDetail.m; sourceTree = "<group>"; };
+		D9F5D4E41B0D227D00285492 /* SectionDetail+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SectionDetail+Creation.m"; path = "Innopolis/Models/SectionDetail+Creation.m"; sourceTree = "<group>"; };
+		D9F5D4E81B0D24C700285492 /* NSDate+string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+string.h"; path = "Innopolis/Categories/NSDate+string.h"; sourceTree = "<group>"; };
+		D9F5D4E91B0D24C700285492 /* NSDate+string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+string.m"; path = "Innopolis/Categories/NSDate+string.m"; sourceTree = "<group>"; };
+		D9F5D4ED1B0D268C00285492 /* SectionDetail+Fetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SectionDetail+Fetching.m"; path = "Innopolis/Models/SectionDetail+Fetching.m"; sourceTree = "<group>"; };
+		D9F5D4F51B0D2F8B00285492 /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Speaker.h; path = Innopolis/Models/Speaker.h; sourceTree = "<group>"; };
+		D9F5D4F61B0D2F8B00285492 /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Speaker.m; path = Innopolis/Models/Speaker.m; sourceTree = "<group>"; };
+		D9F5D4FA1B0D2FC600285492 /* Speaker+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Speaker+Creation.m"; path = "Innopolis/Models/Speaker+Creation.m"; sourceTree = "<group>"; };
+		D9F5D4FE1B0D31FE00285492 /* Speaker+Fetching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Speaker+Fetching.m"; path = "Innopolis/Models/Speaker+Fetching.m"; sourceTree = "<group>"; };
+		D9F66F971B0B7A1D009F2DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images/Images.xcassets; sourceTree = "<group>"; };
+		D9F66F981B0B7A1D009F2DCD /* Interfaces.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Interfaces.xcassets; path = Images/Interfaces.xcassets; sourceTree = "<group>"; };
+		D9F66FA31B0B7C72009F2DCD /* SectionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionDetailViewController.h; path = Innopolis/Controllers/SectionDetailViewController.h; sourceTree = "<group>"; };
+		D9F66FA41B0B7C72009F2DCD /* SectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionDetailViewController.m; path = Innopolis/Controllers/SectionDetailViewController.m; sourceTree = "<group>"; };
+		D9F66FA51B0B7C72009F2DCD /* SectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionsTableViewController.h; path = Innopolis/Controllers/SectionsTableViewController.h; sourceTree = "<group>"; };
+		D9F66FA61B0B7C72009F2DCD /* SectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionsTableViewController.m; path = Innopolis/Controllers/SectionsTableViewController.m; sourceTree = "<group>"; };
+		D9F66FA71B0B7C72009F2DCD /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = Innopolis/Controllers/SideMenuViewController.h; sourceTree = "<group>"; };
+		D9F66FA81B0B7C72009F2DCD /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = Innopolis/Controllers/SideMenuViewController.m; sourceTree = "<group>"; };
+		D9F66FA91B0B7C72009F2DCD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Innopolis/Controllers/ViewController.h; sourceTree = "<group>"; };
+		D9F66FAA1B0B7C72009F2DCD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Innopolis/Controllers/ViewController.m; sourceTree = "<group>"; };
+		D9F66FAB1B0B7C72009F2DCD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Innopolis/Controllers/WebViewController.h; sourceTree = "<group>"; };
+		D9F66FAC1B0B7C72009F2DCD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Innopolis/Controllers/WebViewController.m; sourceTree = "<group>"; };
+		D9F66FBB1B0B7CD2009F2DCD /* NetwokManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetwokManager.h; path = "Innopolis/Network manager/NetwokManager.h"; sourceTree = "<group>"; };
+		D9F66FBC1B0B7CD2009F2DCD /* NetwokManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetwokManager.m; path = "Innopolis/Network manager/NetwokManager.m"; sourceTree = "<group>"; };
+		D9F66FC91B0B7D0E009F2DCD /* MuseoSansCyrl 300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MuseoSansCyrl 300.otf"; path = "Fonts/MuseoSansCyrl 300.otf"; sourceTree = "<group>"; };
+		D9F66FCA1B0B7D0E009F2DCD /* MuseoSansCyrl 500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MuseoSansCyrl 500.otf"; path = "Fonts/MuseoSansCyrl 500.otf"; sourceTree = "<group>"; };
+		D9F66FD61B0B823A009F2DCD /* Urls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Urls.m; path = "Innopolis/Network manager/Urls.m"; sourceTree = "<group>"; };
+		D9F66FD71B0B823A009F2DCD /* Urls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Urls.h; path = "Innopolis/Network manager/Urls.h"; sourceTree = "<group>"; };
+		D9F66FDA1B0B82AD009F2DCD /* ITOPK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ITOPK-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CD7FCD1B035D730029F2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A64B1B0F8958008DED50 /* Foundation.framework in Frameworks */,
+				70E7A6491B0F894E008DED50 /* CoreMotion.framework in Frameworks */,
+				70E7A6471B0F8945008DED50 /* CoreLocation.framework in Frameworks */,
+				70E7A6451B0F893D008DED50 /* CoreBluetooth.framework in Frameworks */,
+				70E7A6431B0F8934008DED50 /* UIKit.framework in Frameworks */,
+				70E7A6411B0F892B008DED50 /* libc++.dylib in Frameworks */,
+				70E7A63F1B0F891F008DED50 /* libz.dylib in Frameworks */,
+				70CD801C1B04CB1C0029F2B4 /* CoreData.framework in Frameworks */,
+				09608F9C9807F74F91DB69C4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70BBCDE71B0CD73F00B70DF9 /* CSS */ = {
+			isa = PBXGroup;
+			children = (
+				70BBCDF81B0DF12B00B70DF9 /* partners.js */,
+				70BBCDEE1B0CEE7C00B70DF9 /* news.js */,
+			);
+			name = CSS;
+			path = Innopolis/CSS;
+			sourceTree = "<group>";
+		};
+		70BBCDF01B0DDBFD00B70DF9 /* Guests view controller */ = {
+			isa = PBXGroup;
+			children = (
+				70BBCDF11B0DDC3F00B70DF9 /* GuestsTableViewController.h */,
+				70BBCDF21B0DDC3F00B70DF9 /* GuestsTableViewController.m */,
+			);
+			name = "Guests view controller";
+			sourceTree = "<group>";
+		};
+		70BBCDF41B0DEA1000B70DF9 /* Partners view controller */ = {
+			isa = PBXGroup;
+			children = (
+				70BBCDF51B0DEA4000B70DF9 /* PartnersWebViewController.h */,
+				70BBCDF61B0DEA4000B70DF9 /* PartnersWebViewController.m */,
+			);
+			name = "Partners view controller";
+			sourceTree = "<group>";
+		};
+		70CD7FC71B035D730029F2B4 = {
+			isa = PBXGroup;
+			children = (
+				D9F66F931B0B7873009F2DCD /* Classes */,
+				D9F66F9E1B0B7AA1009F2DCD /* Network manager */,
+				D9F5D4E71B0D248B00285492 /* Categories */,
+				D9F66F941B0B7963009F2DCD /* Interface */,
+				D9F66F951B0B7999009F2DCD /* Resources */,
+				70CD7FD31B035D730029F2B4 /* Supporting Files */,
+				70CD80201B04D40F0029F2B4 /* Frameworks */,
+				70CD7FEC1B035D730029F2B4 /* InnopolisTests */,
+				70CD7FD11B035D730029F2B4 /* Products */,
+				DBCC5ADEFDBFF483DB87DEF9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		70CD7FD11B035D730029F2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CD7FD01B035D730029F2B4 /* ITOPK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CD7FD31B035D730029F2B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CD7FD41B035D730029F2B4 /* Info.plist */,
+				70CD7FD51B035D730029F2B4 /* main.m */,
+				D9F66FDA1B0B82AD009F2DCD /* ITOPK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Innopolis;
+			sourceTree = "<group>";
+		};
+		70CD7FEC1B035D730029F2B4 /* InnopolisTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4AB1B0B954700285492 /* Helper class */,
+				D9F5D4A91B0B94F500285492 /* APITests.m */,
+				70CD7FED1B035D730029F2B4 /* Supporting Files */,
+			);
+			path = InnopolisTests;
+			sourceTree = "<group>";
+		};
+		70CD7FED1B035D730029F2B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CD7FEE1B035D730029F2B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CD80111B04BA490029F2B4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66FC91B0B7D0E009F2DCD /* MuseoSansCyrl 300.otf */,
+				D9F66FCA1B0B7D0E009F2DCD /* MuseoSansCyrl 500.otf */,
+			);
+			name = Fonts;
+			path = Innopolis;
+			sourceTree = "<group>";
+		};
+		70CD80201B04D40F0029F2B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A64A1B0F8958008DED50 /* Foundation.framework */,
+				70E7A6481B0F894E008DED50 /* CoreMotion.framework */,
+				70E7A6461B0F8945008DED50 /* CoreLocation.framework */,
+				70E7A6441B0F893D008DED50 /* CoreBluetooth.framework */,
+				70E7A6421B0F8934008DED50 /* UIKit.framework */,
+				70E7A6401B0F892B008DED50 /* libc++.dylib */,
+				70E7A63E1B0F891F008DED50 /* libz.dylib */,
+				70CD801B1B04CB1C0029F2B4 /* CoreData.framework */,
+				3EEA8184A2472FA7132B6B27 /* libPods.a */,
+			);
+			name = Frameworks;
+			path = Innopolis.xcodeproj;
+			sourceTree = "<group>";
+		};
+		70DD783A1B10C6D0001791C1 /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66FA91B0B7C72009F2DCD /* ViewController.h */,
+				D9F66FAA1B0B7C72009F2DCD /* ViewController.m */,
+			);
+			name = AboutViewController;
+			sourceTree = "<group>";
+		};
+		70DD783B1B10C6EA001791C1 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				70DD783C1B10C721001791C1 /* QuestionViewController.h */,
+				70DD783D1B10C721001791C1 /* QuestionViewController.m */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		70E7A61B1B0F3BEE008DED50 /* Schedule view controller */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A61C1B0F3C3E008DED50 /* ScheduleTableViewController.h */,
+				70E7A61D1B0F3C3E008DED50 /* ScheduleTableViewController.m */,
+			);
+			name = "Schedule view controller";
+			sourceTree = "<group>";
+		};
+		D9A61C171B108F91001BE99E /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C281B10AF23001BE99E /* Sign up view controller */,
+				D9A61C271B10AEFF001BE99E /* login view controller */,
+				D9A61C241B10AEFC001BE99E /* LoginNavigationController.h */,
+				D9A61C251B10AEFC001BE99E /* LoginNavigationController.m */,
+			);
+			name = Entrance;
+			sourceTree = "<group>";
+		};
+		D9A61C1F1B10A976001BE99E /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C201B10A9CE001BE99E /* NetwokManager+SignIn.h */,
+				D9A61C211B10A9CE001BE99E /* NetwokManager+SignIn.m */,
+			);
+			name = "Sign in";
+			sourceTree = "<group>";
+		};
+		D9A61C271B10AEFF001BE99E /* login view controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C1C1B109BC1001BE99E /* LoginViewController.h */,
+				D9A61C1D1B109BC1001BE99E /* LoginViewController.m */,
+			);
+			name = "login view controller";
+			sourceTree = "<group>";
+		};
+		D9A61C281B10AF23001BE99E /* Sign up view controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C181B108FB0001BE99E /* SignUpViewController.h */,
+				D9A61C191B108FB0001BE99E /* SignUpViewController.m */,
+			);
+			name = "Sign up view controller";
+			sourceTree = "<group>";
+		};
+		D9A61C2C1B10B51C001BE99E /* Text filed with insets */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C291B10B519001BE99E /* UITextFieldWithInsets.h */,
+				D9A61C2A1B10B519001BE99E /* UITextFieldWithInsets.m */,
+			);
+			name = "Text filed with insets";
+			sourceTree = "<group>";
+		};
+		D9A61C2D1B10B528001BE99E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				70AA37D51B0CA306005D63DD /* SpeakersTableViewCell.h */,
+				70AA37D61B0CA306005D63DD /* SpeakersTableViewCell.m */,
+				709E2A671B0B83F2008C1288 /* SectionsTableViewCell.h */,
+				709E2A681B0B83F2008C1288 /* SectionsTableViewCell.m */,
+				70E7A61F1B0F3EB2008DED50 /* ScheduleTableViewCell.h */,
+				70E7A6201B0F3EB2008DED50 /* ScheduleTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D9E236711B0E034D00852DAE /* Fetching datas from server */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4B51B0BA2DE00285492 /* NetwokManager+Sections.m */,
+				D9E236751B0E040800852DAE /* NetwokManager+Speakers.m */,
+				D9E236731B0E03E900852DAE /* NetwokManager+Schedule.m */,
+				70DC5D501B1621AA00BB099E /* NetwokManager+Navigine.m */,
+			);
+			name = "Fetching datas from server";
+			sourceTree = "<group>";
+		};
+		D9E236781B0E071100852DAE /* Schedule event */ = {
+			isa = PBXGroup;
+			children = (
+				D9E236791B0E072900852DAE /* ScheduleEvent.h */,
+				D9E2367A1B0E072900852DAE /* ScheduleEvent.m */,
+				D9E2367E1B0E074500852DAE /* ScheduleEvent+Creation.m */,
+				D9E2368C1B0E54C800852DAE /* ScheduleEvent+Fetching.m */,
+			);
+			name = "Schedule event";
+			sourceTree = "<group>";
+		};
+		D9E236811B0E0C6F00852DAE /* Signing up */ = {
+			isa = PBXGroup;
+			children = (
+				D9E236821B0E0CF400852DAE /* NetwokManager+SignUp.h */,
+				D9E236831B0E0CF400852DAE /* NetwokManager+SignUp.m */,
+			);
+			name = "Signing up";
+			sourceTree = "<group>";
+		};
+		D9E236861B0E171200852DAE /* Ask question */ = {
+			isa = PBXGroup;
+			children = (
+				D9E236871B0E173000852DAE /* NetwokManager+Ask.h */,
+				D9E236881B0E173000852DAE /* NetwokManager+Ask.m */,
+			);
+			name = "Ask question";
+			sourceTree = "<group>";
+		};
+		D9F5D4AB1B0B954700285492 /* Helper class */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4AC1B0B956700285492 /* TestSemaphor.h */,
+				D9F5D4AD1B0B956700285492 /* TestSemaphor.m */,
+			);
+			name = "Helper class";
+			sourceTree = "<group>";
+		};
+		D9F5D4BD1B0BDF6700285492 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4CD1B0BE2BC00285492 /* Section.h */,
+				D9F5D4CE1B0BE2BC00285492 /* Section.m */,
+				D9F5D4D11B0BE38800285492 /* Section+Creation.m */,
+				D9F5D4D41B0BEA2700285492 /* Section+Fetching.m */,
+			);
+			name = Section;
+			sourceTree = "<group>";
+		};
+		D9F5D4DE1B0D223A00285492 /* Section details */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4DF1B0D225500285492 /* SectionDetail.h */,
+				D9F5D4E01B0D225500285492 /* SectionDetail.m */,
+				D9F5D4E41B0D227D00285492 /* SectionDetail+Creation.m */,
+				D9F5D4ED1B0D268C00285492 /* SectionDetail+Fetching.m */,
+			);
+			name = "Section details";
+			sourceTree = "<group>";
+		};
+		D9F5D4E71B0D248B00285492 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4E81B0D24C700285492 /* NSDate+string.h */,
+				D9F5D4E91B0D24C700285492 /* NSDate+string.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D9F5D4F01B0D27E700285492 /* Speaker view controller */ = {
+			isa = PBXGroup;
+			children = (
+				70AA37DB1B0CA317005D63DD /* SpeakersTableViewController.h */,
+				70AA37DC1B0CA317005D63DD /* SpeakersTableViewController.m */,
+				70AA37D91B0CA317005D63DD /* SpeakerDetailViewController.h */,
+				70AA37DA1B0CA317005D63DD /* SpeakerDetailViewController.m */,
+			);
+			name = "Speaker view controller";
+			sourceTree = "<group>";
+		};
+		D9F5D4F11B0D280800285492 /* Sections view controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66FA31B0B7C72009F2DCD /* SectionDetailViewController.h */,
+				D9F66FA41B0B7C72009F2DCD /* SectionDetailViewController.m */,
+				D9F66FA51B0B7C72009F2DCD /* SectionsTableViewController.h */,
+				D9F66FA61B0B7C72009F2DCD /* SectionsTableViewController.m */,
+			);
+			name = "Sections view controller";
+			sourceTree = "<group>";
+		};
+		D9F5D4F21B0D281400285492 /* Side menu view controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66FA71B0B7C72009F2DCD /* SideMenuViewController.h */,
+				D9F66FA81B0B7C72009F2DCD /* SideMenuViewController.m */,
+			);
+			name = "Side menu view controller";
+			sourceTree = "<group>";
+		};
+		D9F5D4F31B0D282A00285492 /* News view controller */ = {
+			isa = PBXGroup;
+			children = (
+				70BBCDE41B0CD3FD00B70DF9 /* NewsWebViewController.h */,
+				70BBCDE51B0CD3FD00B70DF9 /* NewsWebViewController.m */,
+			);
+			name = "News view controller";
+			sourceTree = "<group>";
+		};
+		D9F5D4F41B0D2F7200285492 /* Speaker */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4F51B0D2F8B00285492 /* Speaker.h */,
+				D9F5D4F61B0D2F8B00285492 /* Speaker.m */,
+				D9F5D4FA1B0D2FC600285492 /* Speaker+Creation.m */,
+				D9F5D4FE1B0D31FE00285492 /* Speaker+Fetching.m */,
+			);
+			name = Speaker;
+			sourceTree = "<group>";
+		};
+		D9F66F931B0B7873009F2DCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70CD7FD71B035D730029F2B4 /* AppDelegate.h */,
+				70CD7FD81B035D730029F2B4 /* AppDelegate.m */,
+				70CD80171B04C5E00029F2B4 /* Macros.h */,
+				D9F66F9B1B0B7A72009F2DCD /* Models */,
+				D9F66F9D1B0B7A87009F2DCD /* Views */,
+				D9F66F9C1B0B7A77009F2DCD /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D9F66F941B0B7963009F2DCD /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				70CD7FDD1B035D730029F2B4 /* Main.storyboard */,
+				70CD7FE21B035D730029F2B4 /* LaunchScreen.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		D9F66F951B0B7999009F2DCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70BBCDE71B0CD73F00B70DF9 /* CSS */,
+				D9F66F961B0B79D5009F2DCD /* Images */,
+				70CD80111B04BA490029F2B4 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D9F66F961B0B79D5009F2DCD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				70DC5D541B166F9100BB099E /* pin.png */,
+				70DC5D521B1656DD00BB099E /* map.png */,
+				D9F66F971B0B7A1D009F2DCD /* Images.xcassets */,
+				D9F66F981B0B7A1D009F2DCD /* Interfaces.xcassets */,
+			);
+			name = Images;
+			path = Innopolis;
+			sourceTree = "<group>";
+		};
+		D9F66F9B1B0B7A72009F2DCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66F9F1B0B7AD1009F2DCD /* CoreData models */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D9F66F9C1B0B7A77009F2DCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C171B108F91001BE99E /* Entrance */,
+				70BBCDF41B0DEA1000B70DF9 /* Partners view controller */,
+				70BBCDF01B0DDBFD00B70DF9 /* Guests view controller */,
+				D9F5D4F31B0D282A00285492 /* News view controller */,
+				D9F5D4F21B0D281400285492 /* Side menu view controller */,
+				D9F5D4F11B0D280800285492 /* Sections view controller */,
+				D9F5D4F01B0D27E700285492 /* Speaker view controller */,
+				70E7A61B1B0F3BEE008DED50 /* Schedule view controller */,
+				70DD783A1B10C6D0001791C1 /* AboutViewController */,
+				70DD783B1B10C6EA001791C1 /* Question */,
+				D9F66FAB1B0B7C72009F2DCD /* WebViewController.h */,
+				D9F66FAC1B0B7C72009F2DCD /* WebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D9F66F9D1B0B7A87009F2DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61C2D1B10B528001BE99E /* Cells */,
+				D9A61C2C1B10B51C001BE99E /* Text filed with insets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D9F66F9E1B0B7AA1009F2DCD /* Network manager */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66FD71B0B823A009F2DCD /* Urls.h */,
+				D9F66FD61B0B823A009F2DCD /* Urls.m */,
+				D9F5D4A71B0B904800285492 /* Blocks.h */,
+				D9F66FBB1B0B7CD2009F2DCD /* NetwokManager.h */,
+				D9F66FBC1B0B7CD2009F2DCD /* NetwokManager.m */,
+				D9E236811B0E0C6F00852DAE /* Signing up */,
+				D9A61C1F1B10A976001BE99E /* Sign in */,
+				D9E236861B0E171200852DAE /* Ask question */,
+				D9E236711B0E034D00852DAE /* Fetching datas from server */,
+			);
+			name = "Network manager";
+			sourceTree = "<group>";
+		};
+		D9F66F9F1B0B7AD1009F2DCD /* CoreData models */ = {
+			isa = PBXGroup;
+			children = (
+				D9E236781B0E071100852DAE /* Schedule event */,
+				D9F5D4F41B0D2F7200285492 /* Speaker */,
+				D9F5D4DE1B0D223A00285492 /* Section details */,
+				D9F5D4BD1B0BDF6700285492 /* Section */,
+				70CD801D1B04D21E0029F2B4 /* Innopolis.xcdatamodeld */,
+			);
+			name = "CoreData models";
+			sourceTree = "<group>";
+		};
+		DBCC5ADEFDBFF483DB87DEF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61658FE52DD87FB920164320 /* Pods.debug.xcconfig */,
+				2AAA5B8D036EBBF6AA193825 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CD7FCF1B035D730029F2B4 /* ITOPK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CD7FF31B035D730029F2B4 /* Build configuration list for PBXNativeTarget "ITOPK" */;
+			buildPhases = (
+				70CD7FCC1B035D730029F2B4 /* Sources */,
+				70CD7FCD1B035D730029F2B4 /* Frameworks */,
+				70CD7FCE1B035D730029F2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITOPK;
+			productName = Innopolis;
+			productReference = 70CD7FD01B035D730029F2B4 /* ITOPK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CD7FC81B035D730029F2B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aleksey Novikov";
+				TargetAttributes = {
+					70CD7FCF1B035D730029F2B4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 347HGK8P2M;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 70CD7FCB1B035D730029F2B4 /* Build configuration list for PBXProject "ITOPK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CD7FC71B035D730029F2B4;
+			productRefGroup = 70CD7FD11B035D730029F2B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CD7FCF1B035D730029F2B4 /* ITOPK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CD7FCE1B035D730029F2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC5D531B1656DD00BB099E /* map.png in Resources */,
+				70CD7FDF1B035D730029F2B4 /* Main.storyboard in Resources */,
+				D9F66FCD1B0B7D0E009F2DCD /* MuseoSansCyrl 500.otf in Resources */,
+				70DC5D551B166F9100BB099E /* pin.png in Resources */,
+				70BBCDEF1B0CEE7C00B70DF9 /* news.js in Resources */,
+				70DC5D4C1B15EABB00BB099E /* Interfaces.xcassets in Resources */,
+				D9F66F991B0B7A1D009F2DCD /* Images.xcassets in Resources */,
+				70BBCDF91B0DF12B00B70DF9 /* partners.js in Resources */,
+				70CD7FE41B035D730029F2B4 /* LaunchScreen.xib in Resources */,
+				D9F66FCB1B0B7D0E009F2DCD /* MuseoSansCyrl 300.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CD7FCC1B035D730029F2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F66FC11B0B7CD2009F2DCD /* NetwokManager.m in Sources */,
+				D9E2367F1B0E074500852DAE /* ScheduleEvent+Creation.m in Sources */,
+				709E2A691B0B83F2008C1288 /* SectionsTableViewCell.m in Sources */,
+				D9E2368D1B0E54C800852DAE /* ScheduleEvent+Fetching.m in Sources */,
+				70DC5D511B1621AA00BB099E /* NetwokManager+Navigine.m in Sources */,
+				D9F5D4FF1B0D31FE00285492 /* Speaker+Fetching.m in Sources */,
+				70CD7FD91B035D730029F2B4 /* AppDelegate.m in Sources */,
+				D9F66FB11B0B7C72009F2DCD /* SectionsTableViewController.m in Sources */,
+				D9F5D4E51B0D227D00285492 /* SectionDetail+Creation.m in Sources */,
+				D9F5D4EE1B0D268C00285492 /* SectionDetail+Fetching.m in Sources */,
+				70CD7FD61B035D730029F2B4 /* main.m in Sources */,
+				D9F66FB31B0B7C72009F2DCD /* SideMenuViewController.m in Sources */,
+				D9F5D4D21B0BE38800285492 /* Section+Creation.m in Sources */,
+				D9F66FD81B0B823A009F2DCD /* Urls.m in Sources */,
+				D9F5D4CF1B0BE2BC00285492 /* Section.m in Sources */,
+				D9F5D4EA1B0D24C700285492 /* NSDate+string.m in Sources */,
+				D9F5D4B61B0BA2DE00285492 /* NetwokManager+Sections.m in Sources */,
+				D9E236761B0E040800852DAE /* NetwokManager+Speakers.m in Sources */,
+				D9E236841B0E0CF400852DAE /* NetwokManager+SignUp.m in Sources */,
+				70AA37DE1B0CA317005D63DD /* SpeakersTableViewController.m in Sources */,
+				D9A61C221B10A9CE001BE99E /* NetwokManager+SignIn.m in Sources */,
+				D9A61C1E1B109BC1001BE99E /* LoginViewController.m in Sources */,
+				D9F5D4F71B0D2F8B00285492 /* Speaker.m in Sources */,
+				70BBCDF71B0DEA4000B70DF9 /* PartnersWebViewController.m in Sources */,
+				D9A61C2B1B10B519001BE99E /* UITextFieldWithInsets.m in Sources */,
+				70BBCDE61B0CD3FD00B70DF9 /* NewsWebViewController.m in Sources */,
+				70E7A61E1B0F3C3E008DED50 /* ScheduleTableViewController.m in Sources */,
+				70AA37D81B0CA306005D63DD /* SpeakersTableViewCell.m in Sources */,
+				D9A61C1A1B108FB0001BE99E /* SignUpViewController.m in Sources */,
+				D9E236741B0E03E900852DAE /* NetwokManager+Schedule.m in Sources */,
+				D9F66FAF1B0B7C72009F2DCD /* SectionDetailViewController.m in Sources */,
+				D9F66FB51B0B7C72009F2DCD /* ViewController.m in Sources */,
+				70AA37DD1B0CA317005D63DD /* SpeakerDetailViewController.m in Sources */,
+				D9F66FB71B0B7C72009F2DCD /* WebViewController.m in Sources */,
+				D9E2367B1B0E072900852DAE /* ScheduleEvent.m in Sources */,
+				D9F5D4E11B0D225500285492 /* SectionDetail.m in Sources */,
+				D9F5D4FB1B0D2FC600285492 /* Speaker+Creation.m in Sources */,
+				D9A61C261B10AEFC001BE99E /* LoginNavigationController.m in Sources */,
+				70BBCDF31B0DDC3F00B70DF9 /* GuestsTableViewController.m in Sources */,
+				D9F5D4D51B0BEA2700285492 /* Section+Fetching.m in Sources */,
+				70E7A6211B0F3EB2008DED50 /* ScheduleTableViewCell.m in Sources */,
+				70DD783E1B10C721001791C1 /* QuestionViewController.m in Sources */,
+				70CD801F1B04D21E0029F2B4 /* Innopolis.xcdatamodeld in Sources */,
+				D9E236891B0E173000852DAE /* NetwokManager+Ask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70CD7FDD1B035D730029F2B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CD7FDE1B035D730029F2B4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Innopolis;
+			sourceTree = "<group>";
+		};
+		70CD7FE21B035D730029F2B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CD7FE31B035D730029F2B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Innopolis;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CD7FF11B035D730029F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7b12d1d5-3662-4c3d-8bf8-f12c808272bf";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CD7FF21B035D730029F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CD7FF41B035D730029F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61658FE52DD87FB920164320 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREFIX_HEADER = "Innopolis/ITOPK-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Innopolis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Innopolis/NavigineSDK",
+				);
+				PRODUCT_NAME = ITOPK;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		70CD7FF51B035D730029F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAA5B8D036EBBF6AA193825 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREFIX_HEADER = "Innopolis/ITOPK-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Innopolis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Innopolis/NavigineSDK",
+				);
+				PRODUCT_NAME = ITOPK;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CD7FCB1B035D730029F2B4 /* Build configuration list for PBXProject "ITOPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CD7FF11B035D730029F2B4 /* Debug */,
+				70CD7FF21B035D730029F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CD7FF31B035D730029F2B4 /* Build configuration list for PBXNativeTarget "ITOPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CD7FF41B035D730029F2B4 /* Debug */,
+				70CD7FF51B035D730029F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70CD801D1B04D21E0029F2B4 /* Innopolis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9F5D4BC1B0BDA0C00285492 /* Innopolis-α.xcdatamodel */,
+				D9F5D4BB1B0BD96D00285492 /* Innopolis-β.xcdatamodel */,
+			);
+			currentVersion = D9F5D4BC1B0BDA0C00285492 /* Innopolis-α.xcdatamodel */;
+			name = Innopolis.xcdatamodeld;
+			path = Innopolis/Innopolis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70CD7FC81B035D730029F2B4 /* Project object */;
+}
